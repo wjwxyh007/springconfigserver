@@ -1,0 +1,13 @@
+server:
+  port: 8003
+
+spring:
+    cloud:
+        config:
+            allowOverride: true
+            failFast: true
+            overrideNone: true #覆盖非系统属性
+            overrideSystemProperties: false #覆盖系统属性
+
+
+foo: i am foo,but i changed! changed!changed!
